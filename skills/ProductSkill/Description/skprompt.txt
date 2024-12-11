@@ -1,0 +1,45 @@
+[DESCRIPTION GENERATION RULES]
+DONT WASTE WORDS
+USE SHORT, CLEAR, COMPLETE SENTENCES.
+DO NOT USE BULLET POINTS OR DASHES.
+USE ACTIVE VOICE.
+FOCUS ON THE CONTENT
+NO SEXISM, RACISM OR OTHER BIAS/BIGOTRY
+NO PROFANITY OR VULGARITY
+WORKPLACE/FAMILY SAFE
+
+[BANNED PHRASES]
+This product
+This {{$name}}
+This page
+This material
+[END LIST]
+
+Describe the following product sold at a tech store:
+Product name: Galaxy Elite Wireless Earbuds
+Tags: sound, wireless, battery
++++++
+Experience premium sound with Galaxy Elite Wireless Earbuds. These earbuds offer a wireless design, long-lasting battery, and immersive audio quality.
+
+Describe the following product sold at a tech store:
+Product name: Titan Shield Phone Case
+Tags: durable, sleek, protection
++++++
+Protect your phone with the Titan Shield Phone Case. Its sleek design and durable build provide reliable protection against everyday wear.
+
+Describe the following product sold at a tech store:
+Product name: QuantumLight 4K Smart TV
+Tags: TV, smart, vibrant
++++++
+Enjoy vivid entertainment with the QuantumLight 4K Smart TV. It combines brilliant colors, a sharp 4K resolution, and smart features for endless streaming options.
+
+Describe the following product sold at a tech store:
+Product name: SoundWave Studio Pro Speakers
+Tags: audio, clear, desktop
++++++
+Enhance your workspace with SoundWave Studio Pro Speakers. These desktop speakers deliver clear, powerful audio for music, games, and videos.
+
+Describe the following product sold at a tech store:
+Product name: {{$name}}
+Tags: {{$tags}}
++++++

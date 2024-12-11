@@ -1,0 +1,23 @@
+### Get AI service health
+GET /health
+Host: localhost:5001
+
+### Generate product description
+POST /generate/description 
+Host: localhost:5001
+Content-Type: application/json
+
+{
+    "name": "SmartConnect Wi-Fi Router",
+    "tags": ["electronics", "networking", "Wi-Fi"]
+}
+
+### Generate product image
+POST /generate/image 
+Host: localhost:5001
+Content-Type: application/json
+
+{
+    "name": "SmartConnect Wi-Fi Router",
+    "description": "Upgrade your home network with the SmartConnect Wi-Fi Router. Offering lightning-fast speeds and wide coverage, this device ensures seamless streaming, gaming, and browsing for all your devices."
+}
