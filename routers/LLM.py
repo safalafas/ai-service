@@ -7,9 +7,11 @@ import os
 
 def get_llm():
     """ Function to initialize the LLM so that it can be used in the app """
+     # Load environment variables from .env file
+    load_dotenv()
     # Set the useLocalLLM and useAzureOpenAI variables based on environment variables
     useLocalLLM: bool = False
-    useAzureOpenAI: bool = False
+    useAzureOpenAI: bool = True
     kernel = False
     endpoint: str = ''
     
@@ -35,8 +37,6 @@ def get_llm():
         print("Using Local LLM")
     else:
         print("Using OpenAI and setting up Semantic Kernel")
-        # Load environment variables from .env file
-        load_dotenv()
 
         # Initialize the semantic kernel
         kernel: sk.Kernel = sk.Kernel()
